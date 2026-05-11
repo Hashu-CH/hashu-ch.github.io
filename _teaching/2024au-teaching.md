@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant: CSE 122"
+title: "Teaching Assistant: Java II CSE 122"
 collection: teaching
 type: "CSE 122"
 venue: "University of Washington"

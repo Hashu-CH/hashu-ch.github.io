@@ -1,13 +1,13 @@
 ---
-title: 'About Me'
+title: 'Hello (World)'
 date: 2026-05-10
-permalink: /posts/About/Me
-tags:
-  - First Post
-  - About 
+permalink: /posts/Hello/World
 ---
 
-A bit about me, my interests, and experience at UW so far.
+This Page
+---
+After some time as a TA, I've found teaching and explaining to be invaluable to my own learning process. 
+Truthfully, these notes are more to complete my own understanding of many robotics and statistics concepts -- as much of it I am self learning. Who knows though, maybe these will be useful to someone! That said, here's some more about me.
 
 Academics
 ---
@@ -16,8 +16,6 @@ At the end of my freshman third quarter, I applied to the Computer Science Major
 As a junior now, I feel that I've developed a love and hate relationship with CS. I get the most intellectual satisfaction from doing hard problems. Consequentially, I always seek out the next 'harder' thing which has put me in a very fun and interesting but perpetual cycle of struggle. 
 
 I started as a TA after the intro to programming sequence. I found my way of comprehension to be a bit strange and thought it could be of use to other students. In my sophomore year, I grew really fond of algorithms, theory, and statistics. That, has lent itself to my current interests in probabilistic robotics and learning. 
-
-I haven't done my due diligence on software engineering, but with my first internship around the corner, I'm hoping to find out if I want to pursue research further or go to industry. TBD! 
 
 Interests
 ---

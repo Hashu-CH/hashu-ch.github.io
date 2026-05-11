@@ -1,10 +1,9 @@
 ---
-title: "Teaching Assistant: CSE 123"
+title: "Teaching Assistant: Java III CSE 123"
 collection: teaching
 type: "CSE 123"
 venue: "University of Washington"
 date: 2025-03-30
-location: "Seattle, WA"
 link: https://courses.cs.washington.edu/courses/cse123/25sp/
 ---
 

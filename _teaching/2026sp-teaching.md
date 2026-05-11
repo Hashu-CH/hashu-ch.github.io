@@ -1,10 +1,9 @@
 ---
-title: "Teaching Assistant: CSE 421"
+title: "Teaching Assistant: Algorithms CSE 421"
 collection: teaching
 type: "CSE 421"
 venue: "University of Washington"
 date: 2026-03-26
-location: "Seattle, WA"
 link: https://courses.cs.washington.edu/courses/cse421/26sp/
 ---
 

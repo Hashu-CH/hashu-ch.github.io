@@ -1,10 +1,9 @@
 ---
-title: "Teaching Assistant: CSE 312"
+title: "Teaching Assistant: Probability I CSE 312"
 collection: teaching
 type: "CSE 312"
 venue: "University of Washington"
 date: 2025-06-02
-location: "Seattle, WA"
 link: https://courses.cs.washington.edu/courses/cse312/25su/
 ---
 

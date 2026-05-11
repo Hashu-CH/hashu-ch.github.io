@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant: CSE 121"
+title: "Teaching Assistant: Java I CSE 121"
 collection: teaching
 venue: "University of Washington"
 date: 2025-09-25

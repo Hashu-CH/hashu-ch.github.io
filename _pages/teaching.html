@@ -7,20 +7,41 @@ author_profile: true
 
 {% include base_path %}
 
+<ul class="post-list">
 {% for post in site.teaching reversed %}
-  <div class="list__item">
-    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-      <h2 class="archive__item-title" itemprop="headline">
-        {% if post.link %}
-          <a href="{{ post.link }}">{{ post.title }}</a>
-        {% else %}
-          {{ post.title }}
-        {% endif %}
-      </h2>
-      <p>{{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
-      <div class="archive__item-excerpt" itemprop="description">
-        {{ post.content | markdownify }}
-      </div>
-    </article>
-  </div>
+  <li class="post-list__item">
+    {% if post.link %}
+      <a class="post-list__title" href="{{ post.link }}">{{ post.title }}</a>
+    {% else %}
+      <span class="post-list__title">{{ post.title }}</span>
+    {% endif %}
+    {% assign month = post.date | date: "%-m" | plus: 0 %}
+    {% case month %}
+      {% when 1, 2 %}{% assign season = "Winter" %}
+      {% when 3, 4, 5 %}{% assign season = "Spring" %}
+      {% when 6, 7, 8 %}{% assign season = "Summer" %}
+      {% else %}{% assign season = "Autumn" %}
+    {% endcase %}
+    <span class="post-list__meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ season }} {{ post.date | date: "%Y" }}</time>{% if post.location %} &middot; {{ post.location }}{% endif %}
+    </span>
+  </li>
 {% endfor %}
+</ul>
+
+<style>
+  .post-list { list-style: none; padding: 0; margin: 0 0 1.5em 0; }
+  .post-list__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1em;
+    padding: 0.35em 0;
+  }
+  .post-list__title { font-size: 1rem; }
+  .post-list__meta {
+    color: var(--global-text-color-light, #6b6b6b);
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+</style>
