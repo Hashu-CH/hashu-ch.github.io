@@ -41,3 +41,11 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Minimal overrides to keep post pages consistent with listings */
+.page__content {
+  h2 {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+}
